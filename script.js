@@ -16,7 +16,7 @@ window.onscroll = () =>{
 
     section.forEach((item) =>{
 
-      let top = window.scrollX;
+      let top = window.scrollY;
       let heigth = item.offsetHeight;
       let offset = item.offsetTop - 150;
       let id = item.getAttribute('id');
